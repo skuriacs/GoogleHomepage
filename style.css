@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-left{
+    top: 0;
+    margin-top: 24px;
+    color: rgb(0,0,10);
+    font-family: arial;
+    padding-left: 26px;
+    word-spacing: 14px;
+    font-size: 14px;
+}
+.header-right{
+    top: 0;
+    margin-top: 15px;
+    margin-right: 5px;
+    font-family: arial;
+    padding-left: 12px;
+    font-size: 14px;
+}
+a:link, a:visited{
+    color: rgb(0,0,10) ;
+    text-decoration: none ;
+}
+a:hover{
+    text-decoration: underline ;
+}
+#for-right-header{
+    float:right;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+.image-for-dots{
+    vertical-align: -20%;
+    height: 20px;
+    width: 20px;
+}
+.img-link{
+    text-decoration:none !important;
+}
+
+.sign-in{
+    vertical-align: -50%;
+    height: 30px;
+    width: 70px;
+}
+.google-logo{
+ display: block;
+ margin: 156px auto 0 auto;   
+}
+
+.search {
+    display:block;
+    margin: 13px auto 0 auto;
+    width: 580px;
+    height: 45px;
+    background-image: url(images/SearchLogo.png);
+    background-repeat: no-repeat;
+    background-position: 15px;
+    background-size: 30px 30px;
+    text-indent: 45px;
+    font: 16px arial;
+    border-color: rgb(221, 212, 212);
+    border-radius: 35px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+footer{
+    height: 40px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: rgb(242,242,242);
+}
+
+h3 {
+    display:inline-block;
+    color:#5f6368;
+    font-weight: lighter;
+    font-family: arial;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.left 
+{
+    float: left;
+    margin-left: 28px;
+}
+.right
+{
+    float: right;
+    margin-right: 28px;
+}
