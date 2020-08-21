@@ -26,7 +26,14 @@ a:link, a:visited{
     text-decoration: none ;
 }
 a:hover{
-    text-decoration: underline ;
+    text-decoration: underline;
+}
+a:hover .left{
+    text-decoration: underline;
+    border-bottom: 20px red;
+}
+a:hover .right{
+    text-decoration:underline;
 }
 #for-right-header{
     float:right;
@@ -69,6 +76,24 @@ a:hover{
     border-style: solid;
 }
 
+#search-buttons{
+    display:block;
+    margin: 35px auto 0 auto;
+    width:298px;
+    height:45px;
+}
+.search-button:hover {
+    background-color:white;
+    border:1px solid gray;
+}
+.search-button{
+    margin-left: 18px;
+    background-color: #f2f2f2;
+    border: 1px ridge #f2f2f2;
+    width:128px;
+    height:32px;
+    display:inline-block;
+}
 footer{
     height: 40px;
     width: 100%;
